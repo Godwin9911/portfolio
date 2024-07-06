@@ -1,15 +1,15 @@
-vCard - Personal Portfolio
+Godwin Agedah - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Godwin Agedah
+Godwin Agedah
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+agedah99@gmail.com
 
 Phone
 +1 (213) 352-2795
