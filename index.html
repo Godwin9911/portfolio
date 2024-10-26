@@ -1,102 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Godwin Agedah - Personal Portfolio</title>
 
-    <!--
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Godwin Agedah - Personal Portfolio</title>
+
+  <!--
     - favicon
   -->
-    <link
-      rel="shortcut icon"
-      href="./assets/images/logo.ico"
-      type="image/x-icon"
-    />
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon" />
 
-    <!--
+  <!--
     - custom css link
   -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!--
+  <!--
     - google font link
   -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
-    <!--
+<body>
+  <!--
     - #MAIN
   -->
 
-    <main>
-      <!--
+  <main>
+    <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              src="./assets/images/avatar-1.png"
-              alt="Godwin Agedah"
-              width="80"
-            />
-          </figure>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Godwin Agedah" width="80" />
+        </figure>
 
-          <div class="info-content">
-            <h1 class="name" title="Godwin Agedah">Godwin Agedah</h1>
+        <div class="info-content">
+          <h1 class="name" title="Godwin Agedah">Godwin Agedah</h1>
 
-            <p class="title">Software Engineer</p>
-          </div>
-
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
-
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
+          <p class="title">Software Engineer</p>
         </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
 
-                <a href="mailto:agedah99@gmail.com" class="contact-link"
-                  >agedah99@gmail.com</a
-                >
-              </div>
-            </li>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
+              <a href="mailto:agedah99@gmail.com" class="contact-link">agedah99@gmail.com</a>
+            </div>
+          </li>
 
-                <a href="tel:+2347035311608" class="contact-link"
-                  >+(234) 7035311608</a
-                >
-              </div>
-            </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
 
-            <!--  <li class="contact-item">
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+2347035311608" class="contact-link">+(234) 7035311608</a>
+            </div>
+          </li>
+
+          <!--  <li class="contact-item">
               <div class="icon-box">
                 <ion-icon name="calendar-outline"></ion-icon>
               </div>
@@ -108,213 +94,188 @@
               </div>
             </li> -->
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
 
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-                <address>Port Harcourt, Nigeria</address>
-              </div>
-            </li>
-          </ul>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Port Harcourt, Nigeria</address>
+            </div>
+          </li>
+        </ul>
 
-          <div class="separator"></div>
+        <div class="separator"></div>
 
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/godwin-agedah/"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/godwin-agedah/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a href="https://x.com/GodwinAgedah" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
+          <li class="social-item">
+            <a href="https://x.com/GodwinAgedah" class="social-link" target="_blank">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a href="https://github.com/Godwin9911" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
+          <li class="social-item">
+            <a href="https://github.com/Godwin9911" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a
-                href="https://stackoverflow.com/users/8726962/godwin"
-                class="social-link"
-              >
-                <ion-icon name="logo-stackoverflow"></ion-icon>
-              </a>
-            </li>
+          <li class="social-item">
+            <a href="https://stackoverflow.com/users/8726962/godwin" class="social-link" target="_blank">
+              <ion-icon name="logo-stackoverflow"></ion-icon>
+            </a>
+          </li>
 
-            <li class="social-item">
-              <a
-                href="https://www.upwork.com/freelancers/godwina34"
-                class="social-link"
-              >
-                <ion-icon name="globe-outline"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
+          <li class="social-item">
+            <a href="https://www.upwork.com/freelancers/godwina34" class="social-link" target="_blank">
+              <ion-icon name="globe-outline"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
 
-      <!--
+    <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+    <div class="main-content">
+      <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Contact</button>
-            </li>
-          </ul>
-        </nav>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
 
-        <!--
+      <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-          <section class="about-text">
-            <p>
-              I'm Software Engineer from Nigeria, working in Web development. I
-              enjoy providing website solutions for Businesses.
-            </p>
+        <section class="about-text">
+          <p>
+            I am a Software Engineer based in Nigeria, specializing in web development. I take pleasure in delivering
+            website solutions tailored for businesses.
+          </p>
 
-            <p>
-              My job is to build your website so that it is functional and
-              user-friendly but at the same time attractive. Moreover, I add
-              personal touch to your product and make sure that is eye-catching
-              and easy to use. My aim is to bring across your message and
-              identity in the most creative way.
-            </p>
-          </section>
+          <p>
+            My role involves creating websites that are not only functional and user-friendly but also visually
+            appealing. Additionally, I incorporate a personal touch into your product, ensuring it is both striking and
+            easy to navigate. <br /> My objective is to effectively convey your message and identity in the most
+            innovative
+            manner.
+          </p>
+        </section>
 
-          <!--
+        <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">What i'm doing</h3>
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-design.svg
-                "
-                    alt="design icon"
-                    width="40"
-                  />
-                </div>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
 
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Creating modern, high-quality web designs tailored to elevate your online presence. Professional and
+                  cutting-edge.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-dev.svg"
-                    alt="Web development icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
 
-                  <p class="service-item-text">
-                    High-quality development of fullstack sites at the
-                    professional level.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  End-to-end development for full-stack websites, delivering functionality and performance at a
+                  professional level.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-app.svg"
-                    alt="mobile app icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Mobile apps</h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
 
-                  <p class="service-item-text">
-                    Professional development of applications for iOS and
-                    Android.
-                  </p>
-                </div>
-              </li>
+                <p class="service-item-text">
+                  Expertly crafted apps for iOS and Android, built to meet the latest industry standards and user
+                  expectations.
+                </p>
+              </div>
+            </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/icon-photo.svg"
-                    alt="camera icon"
-                    width="40"
-                  />
-                </div>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40" />
+              </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">
-                    AI / API / Payment Integration
-                  </h4>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">
+                  AI / API / Payment Integration
+                </h4>
 
-                  <p class="service-item-text">
-                    Integration of Third Party tools, eg SMS, Payment Gateway,
-                    Open AI, Gemini etc
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
+                <p class="service-item-text">
+                  Seamlessly integrate third-party tools, including SMS services, payment gateways, AI platforms, and
+                  more to enhance functionality.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <!--
+        <!--
           - testimonials
         -->
-          <!-- 
+        <!--
           <section class="testimonials">
             <h3 class="h3 testimonials-title">Testimonials</h3>
 
@@ -445,55 +406,50 @@
             </ul>
           </section> -->
 
-          <!--
+        <!--
           - testimonials modal
         -->
 
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
 
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img
-                    src="./assets/images/avatar-1.png"
-                    alt="Daniel lewis"
-                    width="80"
-                    data-modal-img
-                  />
-                </figure>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img />
+              </figure>
 
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+            </div>
+
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were
+                  very pleased with the work done. She has a lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum
+                  dolor sit amet, ullamcous cididt consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels
+                  dolore magnarels alia.
+                </p>
               </div>
+            </div>
+          </section>
+        </div>
 
-              <div class="modal-content">
-                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-                <time datetime="2021-06-14">14 June, 2021</time>
-
-                <div data-modal-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were
-                    very pleased with the work done. She has a lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum
-                    dolor sit amet, ullamcous cididt consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels
-                    dolore magnarels alia.
-                  </p>
-                </div>
-              </div>
-            </section>
-          </div>
-
-          <!--
+        <!--
           - clients
         -->
 
-          <!--   <section class="clients">
+        <!--   <section class="clients">
             <h3 class="h3 clients-title">Clients</h3>
 
             <ul class="clients-list has-scrollbar">
@@ -552,109 +508,110 @@
               </li>
             </ul>
           </section> -->
-        </article>
+      </article>
 
-        <!--
+      <!--
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
-
-              <h3 class="h3">Education</h3>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Benson Idahosa University
-                </h4>
-                <p class="timeline-text">BSc - Computer Science</p>
-                <span>2015 - 2018</span>
-              </li>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Benson Idahosa University
-                </h4>
-                <p class="timeline-text">
-                  BASc - Computer Software Engineering
-                </p>
-                <span>2013 — 2015</span>
-              </li>
-            </ol>
-          </section>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                CTO / Senior Software Engineer
+              </h4>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+              <p class="timeline-text">
+                Excellentbridge / Fexspace / InvexERP
+              </p>
+              <span>2023 - 2024</span>
+            </li>
 
-              <h3 class="h3">Experience</h3>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Software Engineer
+              </h4>
+
+              <p class="timeline-text">
+                Excellentbridge / Fexspace / InvexERP
+              </p>
+              <span>2020 - 2023</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Software Engineer (Freelance)
+              </h4>
+
+              <p class="timeline-text">Upwork, Fiverr, Guru, Contract</p>
+              <span>2018 - Present</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Software Engineer (Intern)
+              </h4>
+
+              <p class="timeline-text">Loctech Nigeria Limited</p>
+              <span>Feb 2017 - Jul 2017</span>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Software Engineer (Intern)
+              </h4>
+
+              <p class="timeline-text">Linnet Paul Innovation Institute</p>
+              <span>Jul 2014 - Sep 2014</span>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
             </div>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  CTO / Senior Software Engineer (Full Time)
-                </h4>
+            <h3 class="h3">Education</h3>
+          </div>
 
-                <p class="timeline-text">
-                  Excellentbridge / Fexspace / InvexERP
-                </p>
-                <span>2023 - Present</span>
-              </li>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Benson Idahosa University
+              </h4>
+              <p class="timeline-text">BSc - Computer Science</p>
+              <span>2015 - 2018</span>
+            </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Software Engineer (Full Time)
-                </h4>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">
+                Benson Idahosa University
+              </h4>
+              <p class="timeline-text">
+                BASc - Computer Software Engineering
+              </p>
+              <span>2013 — 2015</span>
+            </li>
+          </ol>
+        </section>
 
-                <p class="timeline-text">
-                  Excellentbridge / Fexspace / InvexERP
-                </p>
-                <span>2020 - Present</span>
-              </li>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Software Engineer (Freelance)
-                </h4>
-
-                <p class="timeline-text">Upwork, Fiverr, Guru</p>
-                <span>2018 - Present</span>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Software Engineer (Intern)
-                </h4>
-
-                <p class="timeline-text">Loctech Nigeria Limited</p>
-                <span>Feb 2017 - Jul 2017</span>
-              </li>
-
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Software Engineer (Intern)
-                </h4>
-
-                <p class="timeline-text">Linnet Paul Innovation Institute</p>
-                <span>Jul 2014 - Sep 2014</span>
-              </li>
-            </ol>
-          </section>
-
-          <!--    <section class="skill">
+        <!--    <section class="skill">
             <h3 class="h3 skills-title">My skills</h3>
 
             <ul class="skills-list content-card">
@@ -703,235 +660,180 @@
               </li>
             </ul>
           </section> -->
-        </article>
+      </article>
 
-        <!--
+      <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
 
-          <section class="projects">
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn>All</button>
-              </li>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
 
-              <!--  <li class="filter-item">
+            <!--  <li class="filter-item">
                 <button data-filter-btn>Web design</button>
               </li> -->
 
-              <li class="filter-item">
-                <button data-filter-btn>Applications</button>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>
+                Select category
+              </div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Web development</button>
-              </li>
-            </ul>
-
-            <div class="filter-select-box">
-              <button class="filter-select" data-select>
-                <div class="select-value" data-selecct-value>
-                  Select category
-                </div>
-
-                <div class="select-icon">
-                  <ion-icon name="chevron-down"></ion-icon>
-                </div>
-              </button>
-
-              <ul class="select-list">
-                <li class="select-item">
-                  <button data-select-item>All</button>
-                </li>
-
-                <!--                 <li class="select-item">
+              <!--                 <li class="select-item">
                   <button data-select-item>Web design</button>
                 </li> -->
 
-                <li class="select-item">
-                  <button data-select-item>Applications</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web development</button>
-                </li>
-              </ul>
-            </div>
-
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="https://preyeagedahlex.com/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-1.png"
-                      alt="law"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Law</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
               </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="https://invexerp.com/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-2.png"
-                      alt="erp"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">ERP</h3>
-                  <p class="project-category">Web development</p>
-                </a>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
               </li>
+            </ul>
+          </div>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="https://fexspace.com">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://preyeagedahlex.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/project-3.jpg"
-                      alt="Collaboration"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/project-1.png" alt="law" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">Collaboration</h3>
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+                <h3 class="project-title">Law</h3>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="https://vinolighting.com/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
 
-                    <img
-                      src="./assets/images/ecommerce.png"
-                      alt="Ecommerce"
-                      loading="lazy"
-                    />
-                  </figure>
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="https://invexerp.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                  <h3 class="project-title">Ecommerce</h3>
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+                  <img src="./assets/images/project-2.png" alt="erp" loading="lazy" />
+                </figure>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="https://collaboration.fexspace.com/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                <h3 class="project-title">ERP</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
 
-                    <img
-                      src="./assets/images/kanban.png"
-                      alt="kanban"
-                      loading="lazy"
-                    />
-                  </figure>
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://fexspace.com" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                  <h3 class="project-title">Collaboration (Kanban Board)</h3>
+                  <img src="./assets/images/project-3.jpg" alt="Collaboration" loading="lazy" />
+                </figure>
 
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
+                <h3 class="project-title">Collaboration</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="https://vinolighting.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-                    <img
-                      src="./assets/images/audio_transcribe.png"
-                      alt="AI Audio Transcriber with Summary"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <img src="./assets/images/ecommerce.png" alt="Ecommerce" loading="lazy" />
+                </figure>
 
-                  <h3 class="project-title">
-                    AI Audio Transcriber with Summary (Open AI, Gemini)
-                  </h3>
+                <h3 class="project-title">Ecommerce</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
 
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="https://collaboration.fexspace.com/" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-              <!--
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                  <img src="./assets/images/kanban.png" alt="kanban" loading="lazy" />
+                </figure>
 
-                    <img
-                      src="./assets/images/project-6.png"
-                      alt="metaspark"
-                      loading="lazy"
-                    />
-                  </figure>
+                <h3 class="project-title">Collaboration (Kanban Board)</h3>
 
-                  <h3 class="project-title">MetaSpark</h3>
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
 
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
+            <li class="project-item active" data-filter-item data-category="applications">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
+                  <img src="./assets/images/audio_transcribe.png" alt="AI Audio Transcriber with Summary"
+                    loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">
+                  AI Audio Transcriber with Summary (Open AI, Gemini)
+                </h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+
+            <li class="project-item active" data-filter-item data-category="Applications">
+              <a href="https://afimshotels.com/index.php?" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy" />
+                </figure>
+
+                <h3 class="project-title">Hotel Management (Landing Page and Dashboard) </h3>
+
+                <p class="project-category">Applications</p>
+              </a>
+            </li>
+
+            <!--
               <li
                 class="project-item active"
                 data-filter-item
@@ -1003,219 +905,198 @@
                   <p class="project-category">Web development</p>
                 </a>
               </li> -->
-            </ul>
-          </section>
-        </article>
+          </ul>
+        </section>
+      </article>
 
-        <!--
+      <!--
         - #BLOG
       -->
 
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
+      <article class="blog" data-page="blog">
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
 
-          <section class="blog-posts">
-            <ul class="blog-posts-list">
-              <li class="blog-post-item">
-                <a
-                  href="https://www.twilio.com/en-us/blog/track-conversion-rate-incoming-sms-via-link-google-analytics"
-                >
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/twilio-sms-tracking-google-analytics-cover-photo.png"
-                      alt="How to Track the Conversion Rate of Incoming SMS via a Link Using Google Analytics"
-                      loading="lazy"
-                    />
-                  </figure>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item">
+              <a href="https://www.twilio.com/en-us/blog/track-conversion-rate-incoming-sms-via-link-google-analytics"
+                target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/twilio-sms-tracking-google-analytics-cover-photo.png"
+                    alt="How to Track the Conversion Rate of Incoming SMS via a Link Using Google Analytics"
+                    loading="lazy" />
+                </figure>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">API Integration</p>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">API Integration</p>
 
-                      <span class="dot"></span>
+                    <span class="dot"></span>
 
-                      <time datetime="2022-02-23">March 18, 2019</time>
-                    </div>
-
-                    <h3 class="h3 blog-item-title">
-                      How to Track the Conversion Rate of Incoming SMS via a
-                      Link Using Google Analytics
-                    </h3>
-
-                    <p class="blog-text">
-                      You have succeeded in sending a bulk SMS to all your
-                      customers to buy your shiny new product, via a link in an
-                      SMS. How do ...
-                    </p>
+                    <time datetime="2022-02-23">March 18, 2019</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a
-                  href="https://dev.to/godwinagedah/stream-my-pc-social-streaming-and-educational-platform-4hl0"
-                >
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/1712208961910.jpeg"
-                      alt="Stream My PC, Social Streaming and Educational platform"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    How to Track the Conversion Rate of Incoming SMS via a
+                    Link Using Google Analytics
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">API Integration</p>
+                  <p class="blog-text">
+                    You have succeeded in sending a bulk SMS to all your
+                    customers to buy your shiny new product, via a link in an
+                    SMS. How do ...
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="https://dev.to/godwinagedah/stream-my-pc-social-streaming-and-educational-platform-4hl0"
+                target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/1712208961910.jpeg"
+                    alt="Stream My PC, Social Streaming and Educational platform" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Apr 23, 2020</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">API Integration</p>
 
-                    <h3 class="h3 blog-item-title">
-                      Stream My PC, Social Streaming and Educational platform
-                    </h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Stream My PC is a web application that streams content
-                      from a host user machi...
-                    </p>
+                    <time datetime="2022-02-23">Apr 23, 2020</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="https://dev.to/godwinagedah">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-3.jpg"
-                      alt="Design digest #80"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    Stream My PC, Social Streaming and Educational platform
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">More Content</p>
+                  <p class="blog-text">
+                    Stream My PC is a web application that streams content
+                    from a host user machi...
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="https://dev.to/godwinagedah" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Feb 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">More Content</p>
 
-                    <h3 class="h3 blog-item-title">Dev.to</h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">My other articles</p>
+                    <time datetime="2022-02-23">Feb 23, 2022</time>
                   </div>
-                </a>
-              </li>
 
-              <!--  <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-4.jpg"
-                      alt="UI interactions of the week"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title"> More Articles You May Enjoy</h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Discover more of my latest insights and in-depth guides on topics that matter.</p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="https://www.twilio.com/en-us/blog/authors/author.gagedah" target="_blank">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="UI interactions of the week" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Contibutor</p>
 
-                    <h3 class="h3 blog-item-title">
-                      UI interactions of the week
-                    </h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Enim ad minim veniam, consectetur adipiscing elit, quis
-                      nostrud exercitation ullamco laboris nisi.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2024</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-5.jpg"
-                      alt="The forgotten art of spacing"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    My Article Contributions
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Explore a collection of my published articles, featuring insights and expertise across a variety of
+                    topics.
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <!--
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                    <h3 class="h3 blog-item-title">
-                      The forgotten art of spacing
-                    </h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
-                      et dolore magna aliqua.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
-                </a>
-              </li>
 
-              <li class="blog-post-item">
-                <a href="#">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="./assets/images/blog-6.jpg"
-                      alt="Design digest #79"
-                      loading="lazy"
-                    />
-                  </figure>
+                  <h3 class="h3 blog-item-title">
+                    The forgotten art of spacing
+                  </h3>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <p class="blog-category">Design</p>
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.
+                  </p>
+                </div>
+              </a>
+            </li>
 
-                      <span class="dot"></span>
+            <li class="blog-post-item">
+              <a href="#">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy" />
+                </figure>
 
-                      <time datetime="2022-02-23">Fab 23, 2022</time>
-                    </div>
+                <div class="blog-content">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+                    <span class="dot"></span>
 
-                    <p class="blog-text">
-                      Optio cumque nihil impedit uo minus quod maxime placeat,
-                      velit esse cillum.
-                    </p>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
-                </a>
-              </li> -->
-            </ul>
-          </section>
-        </article>
 
-        <!--
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat,
+                    velit esse cillum.
+                  </p>
+                </div>
+              </a>
+            </li> -->
+          </ul>
+        </section>
+      </article>
+
+      <!--
         - #CONTACT
       -->
 
-        <article class="contact" data-page="contact">
-          <header>
-            <h2 class="h2 article-title">Contact</h2>
-          </header>
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <!--    <section class="mapbox" data-mapbox>
+        <!--    <section class="mapbox" data-mapbox>
             <figure>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
@@ -1226,63 +1107,39 @@
             </figure>
           </section> -->
 
-          <section class="contact-form">
-            <h3 class="h3 form-title">Contact Form</h3>
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-            <form action="mailto:agedah99@gmail.com" class="form" data-form>
-              <div class="input-wrapper">
-                <input
-                  type="text"
-                  name="fullname"
-                  class="form-input"
-                  placeholder="Full name"
-                  required
-                  data-form-input
-                />
+          <form action="mailto:agedah99@gmail.com" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input />
 
-                <input
-                  type="email"
-                  name="email"
-                  class="form-input"
-                  placeholder="Email address"
-                  required
-                  data-form-input
-                />
-              </div>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required
+                data-form-input />
+            </div>
 
-              <textarea
-                name="message"
-                class="form-input"
-                placeholder="Your Message"
-                required
-                data-form-input
-              ></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <button class="form-btn" type="submit" disabled data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
-                <span>Send Message</span>
-              </button>
-            </form>
-          </section>
-        </article>
-      </div>
-    </main>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section>
+      </article>
+    </div>
+  </main>
 
-    <!--
+  <!--
     - custom js link
   -->
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 
-    <!--
+  <!--
     - ionicon link
   -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
